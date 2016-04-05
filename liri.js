@@ -85,8 +85,13 @@ function myTweets() {
 				// So long as this isn't the 20th tweet yet
 				if (tweet < 20) { 
 
+					// get the date of the tweet
+					var tweetDate = new Date(timeline[tweet].created_at);
+					console.log(tweetDate);
+
 					// log out the date and text of our latest tweets.
-					conAndFileLog("Tweet #" + (parseInt(tweet) + 1) + " // Date: " + timeline[tweet].created_at);
+					conAndFileLog("Tweet #" + (parseInt(tweet) + 1) + 
+												" // Date: " + tweetDate.toString().slice(0, 24)); // keep only important date info
 					conAndFileLog(timeline[tweet].text);
 				}
 				// If it is the 20th tweet (or higher)
