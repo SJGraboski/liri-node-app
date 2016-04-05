@@ -35,7 +35,12 @@ function conAndFileLog(str) {
 // and a check for if it got calledfrom do-what-it-says)
 function caller(arg1, arg2, doWhat) {
 	// log the command to log.txt
-	fs.appendFile("log.txt", (arg1 + " " + arg2 + "\n"));
+	if (arg2) {
+		fs.appendFile("log.txt", (arg1 + " " + arg2 + "\n"));
+	}
+	else {
+		fs.appendFile("log.txt", (arg1 + "\n"));
+	}
 
 	// call my-tweets
 	if (arg1 === 'my-tweets') {

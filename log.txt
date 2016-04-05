@@ -1,4 +1,4 @@
-my-tweets undefined
+my-tweets
 Running my-tweets...
 Tweet #1 // Date: Sun Apr 03 2016 17:15:42
 TrendGetter is still in development, but what we have now will help you learn more about the topics making waves online
@@ -6,9 +6,3 @@ Tweet #2 // Date: Sun Apr 03 2016 17:13:09
 Having a hard time keeping up on the latest trends? Check out this app @waltdakind, John Reda and I developed: https://t.co/H4g7R03T09
 Tweet #3 // Date: Sun Apr 03 2016 17:06:16
 Really cool guide by @taraparkerpope on long-distance running, it's benefits, and how to stick with it. https://t.co/U4r2uTHF2s
-spotify-song Badlands
-spotify-this-song Badlands
-Running spotify-this-song...
-"Badlands", by ¡MAYDAY!
-from the album "Take Me To Your Leader"
-Preview: https://open.spotify.com/track/55iiBrGOWT5W99VKy4Fk2C
